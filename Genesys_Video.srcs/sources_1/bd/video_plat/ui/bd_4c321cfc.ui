@@ -1,0 +1,71 @@
+{
+   "ActiveEmotionalView":"Default View",
+   "Default View_ScaleFactor":"0.545112",
+   "Default View_TopLeft":"515,-185",
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 7.7.1 2023-07-26 3bc4126617 VDI=43 GEI=38 GUI=JA:21.0
+#  -string -flagsOSRD
+preplace port hdmi_out -pg 1 -lvl 12 -x 3350 -y 120 -defaultsOSRD
+preplace port hdmi_in_ddc -pg 1 -lvl 12 -x 3350 -y 520 -defaultsOSRD
+preplace port hdmi_in -pg 1 -lvl 0 -x -10 -y 470 -defaultsOSRD
+preplace port ctrl -pg 1 -lvl 0 -x -10 -y 780 -defaultsOSRD
+preplace port port-id_reset -pg 1 -lvl 0 -x -10 -y 750 -defaultsOSRD
+preplace port port-id_clk_in -pg 1 -lvl 0 -x -10 -y 680 -defaultsOSRD
+preplace port port-id_s_axi_aresetn -pg 1 -lvl 0 -x -10 -y 840 -defaultsOSRD
+preplace port port-id_s_axi_aclk -pg 1 -lvl 0 -x -10 -y 820 -defaultsOSRD
+preplace port port-id_s_axi_aclken -pg 1 -lvl 0 -x -10 -y 800 -defaultsOSRD
+preplace inst v_vid_in_axi4s_0 -pg 1 -lvl 4 -x 1080 -y 210 -defaultsOSRD
+preplace inst v_axi4s_vid_out_0 -pg 1 -lvl 10 -x 2880 -y 350 -defaultsOSRD
+preplace inst rgb2dvi_0 -pg 1 -lvl 11 -x 3200 -y 120 -defaultsOSRD
+preplace inst dvi2rgb_0 -pg 1 -lvl 3 -x 720 -y 500 -defaultsOSRD
+preplace inst proc_sys_reset_1 -pg 1 -lvl 2 -x 390 -y 650 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 3 -x 720 -y 680 -defaultsOSRD
+preplace inst v_tc_0 -pg 1 -lvl 9 -x 2530 -y 750 -defaultsOSRD
+preplace inst xlconstant_1 -pg 1 -lvl 9 -x 2530 -y 430 -defaultsOSRD
+preplace inst axis_subset_converter_0 -pg 1 -lvl 6 -x 1610 -y 210 -defaultsOSRD
+preplace inst axis_data_fifo_0 -pg 1 -lvl 8 -x 2180 -y 250 -defaultsOSRD
+preplace inst axis_register_slice_0 -pg 1 -lvl 5 -x 1350 -y 190 -defaultsOSRD
+preplace inst axis_register_slice_1 -pg 1 -lvl 7 -x 1890 -y 230 -defaultsOSRD
+preplace inst axis_register_slice_2 -pg 1 -lvl 9 -x 2530 -y 270 -defaultsOSRD
+preplace inst proc_sys_reset_2 -pg 1 -lvl 8 -x 2180 -y 680 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 1 -x 110 -y 680 -defaultsOSRD
+preplace netloc aclk_1 1 1 9 210 550 580J 740 920 390 1240 270 1450 290 1780 320 2010 330 2350 350 2660
+preplace netloc aresetn_1 1 2 8 570J 760 930 400 1250 280 1460 300 1790 310 2000 340 2400 370 2670J
+preplace netloc axis_enable_1 1 3 7 900 410 NJ 410 NJ 410 NJ 410 NJ 410 2350J 360 2720
+preplace netloc clk_in_1 1 0 3 10 760 NJ 760 560
+preplace netloc clk_wiz_0_locked 1 1 1 N 690
+preplace netloc dvi2rgb_0_PixelClk 1 3 8 890 380 NJ 380 NJ 380 NJ 380 2010 530 2400 490 2700 180 NJ
+preplace netloc dvi2rgb_0_vid_pData 1 3 1 850 140n
+preplace netloc dvi2rgb_0_vid_pHSync 1 3 1 870 160n
+preplace netloc dvi2rgb_0_vid_pVDE 1 3 1 860 120n
+preplace netloc dvi2rgb_0_vid_pVSync 1 3 1 880 180n
+preplace netloc proc_sys_reset_2_peripheral_aresetn 1 8 1 2350 720n
+preplace netloc reset_1 1 0 8 NJ 750 220 770 NJ 770 NJ 770 NJ 770 NJ 770 NJ 770 1990J
+preplace netloc s_axi_aclk_1 1 0 9 NJ 820 NJ 820 NJ 820 NJ 820 NJ 820 NJ 820 NJ 820 NJ 820 2380J
+preplace netloc s_axi_aclken_1 1 0 9 NJ 800 NJ 800 NJ 800 NJ 800 NJ 800 NJ 800 NJ 800 NJ 800 2370
+preplace netloc s_axi_aresetn_1 1 0 9 NJ 840 NJ 840 NJ 840 NJ 840 NJ 840 NJ 840 NJ 840 NJ 840 NJ
+preplace netloc v_axi4s_vid_out_0_sof_state_out 1 8 3 2390 930 NJ 930 3040
+preplace netloc v_axi4s_vid_out_0_vid_active_video 1 10 1 3060 140n
+preplace netloc v_axi4s_vid_out_0_vid_data 1 10 1 3040 80n
+preplace netloc v_axi4s_vid_out_0_vid_hsync 1 10 1 3050 100n
+preplace netloc v_axi4s_vid_out_0_vid_vsync 1 10 1 3070 120n
+preplace netloc v_axi4s_vid_out_0_vtg_ce 1 8 3 2400 920 NJ 920 3060
+preplace netloc vid_io_in_reset_1 1 2 9 590 750 910 500 NJ 500 NJ 500 NJ 500 NJ 500 NJ 500 2690 160 NJ
+preplace netloc xlconstant_1_dout 1 9 1 2680J 370n
+preplace netloc Conn1 1 11 1 NJ 120
+preplace netloc Conn2 1 3 9 NJ 520 NJ 520 NJ 520 NJ 520 NJ 520 NJ 520 NJ 520 NJ 520 NJ
+preplace netloc Conn3 1 0 9 NJ 780 NJ 780 NJ 780 NJ 780 NJ 780 NJ 780 NJ 780 NJ 780 2360J
+preplace netloc Conn4 1 0 3 NJ 470 NJ 470 NJ
+preplace netloc axis_data_fifo_0_M_AXIS 1 8 1 N 250
+preplace netloc axis_register_slice_0_M_AXIS 1 5 1 N 190
+preplace netloc axis_register_slice_1_M_AXIS 1 7 1 N 230
+preplace netloc axis_register_slice_2_M_AXIS 1 9 1 N 270
+preplace netloc axis_subset_converter_0_M_AXIS 1 6 1 N 210
+preplace netloc v_tc_0_vtiming_out 1 9 1 2710 290n
+preplace netloc v_vid_in_axi4s_0_video_out1 1 4 1 N 170
+preplace netloc v_vid_in_axi4s_0_vtiming_out 1 4 5 1230 580 NJ 580 NJ 580 NJ 580 2350J
+levelinfo -pg 1 -10 110 390 720 1080 1350 1610 1890 2180 2530 2880 3200 3350
+pagesize -pg 1 -db -bbox -sgen -160 0 3480 940
+"
+}
+0
